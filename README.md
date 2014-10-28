@@ -3,6 +3,9 @@ SteamBay
 
 SteamBay is the world's online marketplace for Virtual Steam items.
 
+Project supported by Game4commit **Get paid to contribute to SteamBay** :
+[![tip for next commit](http://game4commit.gamers-coin.org/projects/40.svg)](http://game4commit.gamers-coin.org/projects/40)
+
 ![Gamerscoin](http://tradebase.gamers-coin.org/images/logo2.png)
 
 A Gamer lists an Virtual Steam item on SteamBay, most anything from Dota2,CSGO,TF2,Steam Items.
@@ -37,10 +40,6 @@ In a Buy It Now listing, the first Gamer willing to pay the seller's price gets 
  - https://www.npmjs.org/package/gamerscoin 
  - https://github.com/seishun/node-steam-trade
  - https://github.com/Alex7Kom/node-steam-tradeoffers
-
-Project supported by Game4commit **Get paid to contribute to SteamBay** :
-[![tip for next commit](http://game4commit.gamers-coin.org/projects/40.svg)](http://game4commit.gamers-coin.org/projects/40)
-
 
 ###A list of contributors (add yourself if you want to):
 
