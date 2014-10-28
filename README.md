@@ -1,7 +1,7 @@
 SteamBay
 ========
 
-SteamBay is the world's online marketplace for Virtual Steam items.
+SteamBay is the world's Open Source online marketplace for Virtual Steam items.
 
 Project supported by Game4commit **Get paid to contribute to SteamBay** :
 [![tip for next commit](http://game4commit.gamers-coin.org/projects/40.svg)](http://game4commit.gamers-coin.org/projects/40)
