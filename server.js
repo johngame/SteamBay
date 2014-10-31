@@ -10,10 +10,21 @@ var express = require('express')
 var client = new gamerscoin.Client({
   host: 'localhost',
   port: 40001,
-  user: 'username',
+  user: 'gamerscoinrpc',
   pass: 'password',
   timeout: 30000
 });
+
+client.getBalance(function(err, balance) {
+  if(err) {
+  console.log('Could not connect to %s RPC API! ', err);
+  process.exit(1);
+  return;
+  }
+  var balance = typeof(balance) == 'object' ? balance.result : balance;
+  console.log('Connected to JSON RPC API. Current total balance is %d' + ' GMC', balance);
+})
+
 
 // Passport session setup.
 //   To support persistent login sessions, Passport needs to be able to
