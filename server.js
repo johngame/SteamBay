@@ -1,7 +1,19 @@
 var express = require('express')
   , passport = require('passport')
+  , gamerscoin = require('gamerscoin')
   , util = require('util')
   , SteamStrategy = require('passport-steam').Strategy;
+
+
+
+//Connect to Gamerscoin server.
+var client = new gamerscoin.Client({
+  host: 'localhost',
+  port: 40001,
+  user: 'username',
+  pass: 'password',
+  timeout: 30000
+});
 
 // Passport session setup.
 //   To support persistent login sessions, Passport needs to be able to
